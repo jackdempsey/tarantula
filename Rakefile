@@ -19,6 +19,7 @@ begin
     s.authors = ["Relevance, Inc."]
     s.require_paths = ["lib"]
     s.files = files.flatten
+    s.add_dependency 'htmlentities'
   end
 rescue LoadError
   puts "Jeweler not available. Install it with: sudo gem install technicalpickles-jeweler -s http://gems.github.com"
